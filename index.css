@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url("TaskTracker.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+input,button{
+    font-size: 16px;
+    padding: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+ul{
+    list-style-type:none;
+    padding: 0;
+    width: 100%;
+    max-width:600px;
+    color: blueviolet;
+}
+li{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid#ddd;
+    margin-bottom: 10px;
+}
+.complete{
+    text-decoration: line-through;
+    color:#888;
+}
+.task-buttons{
+    display: flex;
+    gap:10px;
+}
+.task-buttons button{
+    padding:5px 10px;
+}
